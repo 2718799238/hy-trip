@@ -1,0 +1,18 @@
+:root {
+    --primary-color:#ff9645 !important
+}
+:root:root {
+    --van-calendar-popup-height:100% !important
+    
+  }
+
+/* 修改vant搜索框搜索的颜色 */
+.van-icon-search {
+    color: var(--primary-color);
+}
+.van-tabs__line {
+    background: var(--primary-color) !important;
+}
+.van-index-anchor--sticky {
+    color: var(--primary-color);
+}
